@@ -1,34 +1,10 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <!-- Google tag (gtag.js) -->
-  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-782535465"></script>
-  <script>
-    window.dataLayer = window.dataLayer || [];
-    function gtag(){dataLayer.push(arguments);}
-    gtag('js', new Date());
-    gtag('config', 'AW-782535465');
-  </script>
-
-  <!-- Event snippet for Contact conversion page -->
-  <script>
-    gtag('event', 'conversion', {'send_to': 'AW-782535465/4Qm6CNTi1_MZEKmWkvUC'});
-  </script>
-
-  <!-- Google Tag Manager -->
-  <script>
-    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-TM4B92LS');
-  </script>
-  <!-- End Google Tag Manager -->
-
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
   <title>CCTV Zoom In Zone | Best CCTV, Biometric & GPS Installer in Erode</title>
-  <meta name="description" content="CCTV Zoom In Zone is Erode's leading dealer and installer for CCTV cameras, biometric attendance systems, GPS trackers, and laptop services." />
+  <meta name="description" content="CCTV Zoom In Zone is Erode's leading dealer and installer for CCTV cameras, biometric attendance systems, GPS trackers, and laptop services. Contact us for secure and reliable solutions." />
   <meta name="keywords" content="CCTV Erode, CCTV installation, biometric attendance, GPS tracker, laptop service, CCTV Zoom In Zone" />
   <meta name="robots" content="index, follow" />
 
@@ -40,8 +16,173 @@
   <!-- Font Awesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" integrity="sha512-quGqH9ufVOP+dGeeN1kJbLBVvyRmydz9LlcFgJePGOUj69ZNvWqtDx1ziHzH174tgKKTA0macMtcT3VTdf+EOA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
 
+  <!-- Styles -->
   <style>
-    /* ... your full CSS remains unchanged ... */
+    :root {
+      --primary: #1d4ed8;
+      --secondary: #0f172a;
+      --light: #f8fafc;
+    }
+
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: "Poppins", sans-serif;
+    }
+
+    body {
+      color: var(--secondary);
+      background: var(--light);
+      line-height: 1.6;
+    }
+
+    header {
+      background: var(--secondary);
+      color: #fff;
+      padding: 1rem 2rem;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+
+    header h1 {
+      font-size: 1.5rem;
+      font-weight: 600;
+    }
+
+    nav ul {
+      list-style: none;
+      display: flex;
+      gap: 1.5rem;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-weight: 500;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    .hero {
+      background: url("images/hero-cctv.jpg") center/cover no-repeat;
+      min-height: 60vh;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      text-align: center;
+      position: relative;
+      color: #fff;
+    }
+
+    .hero::after {
+      content: "";
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      background: rgba(15, 23, 42, 0.6);
+    }
+
+    .hero-content {
+      position: relative;
+      z-index: 1;
+      padding: 4rem 2rem;
+    }
+
+    .hero h2 {
+      font-size: 2.5rem;
+      margin-bottom: 1rem;
+    }
+
+    .btn {
+      background: var(--primary);
+      color: #fff;
+      padding: 0.75rem 1.5rem;
+      border: none;
+      border-radius: 0.5rem;
+      cursor: pointer;
+      font-size: 1rem;
+      transition: opacity 0.3s ease;
+    }
+
+    .btn:hover {
+      opacity: 0.9;
+    }
+
+    .section {
+      padding: 4rem 2rem;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .section-title {
+      text-align: center;
+      margin-bottom: 2rem;
+      font-size: 2rem;
+      color: var(--primary);
+    }
+
+    .services {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 1.5rem;
+    }
+
+    .service-card {
+      background: #fff;
+      border-radius: 1rem;
+      padding: 2rem;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+      text-align: center;
+      transition: transform 0.3s ease;
+    }
+
+    .service-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .service-card i {
+      font-size: 2.5rem;
+      color: var(--primary);
+      margin-bottom: 1rem;
+    }
+
+    .contact {
+      display: flex;
+      flex-direction: column;
+      gap: 1rem;
+    }
+
+    .contact-item {
+      display: flex;
+      align-items: center;
+      gap: 1rem;
+      font-size: 1rem;
+    }
+
+    .contact-item i {
+      color: var(--primary);
+    }
+
+    footer {
+      background: var(--secondary);
+      color: #fff;
+      text-align: center;
+      padding: 1rem;
+      margin-top: 2rem;
+      font-size: 0.9rem;
+    }
+
+    @media (max-width: 600px) {
+      .hero h2 {
+        font-size: 1.75rem;
+      }
+    }
   </style>
 
   <!-- Structured Data -->
@@ -66,6 +207,25 @@
       "sameAs": ["https://www.facebook.com/cctvzoominzone"]
     }
   </script>
+
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-782535465"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-782535465');
+    gtag('event', 'conversion', {'send_to': 'AW-782535465/4Qm6CNTi1_MZEKmWkvUC'});
+  </script>
+
+  <!-- Google Tag Manager -->
+  <script>
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-TM4B92LS');
+  </script>
 </head>
 
 <body>
@@ -74,14 +234,82 @@
     <iframe src="https://www.googletagmanager.com/ns.html?id=GTM-TM4B92LS"
     height="0" width="0" style="display:none;visibility:hidden"></iframe>
   </noscript>
-  <!-- End Google Tag Manager (noscript) -->
 
-  <!-- Your existing content like header, hero, services, contact, footer goes here -->
-  <!-- Replace the one icon as mentioned above -->
-  <div class="contact-item">
-    <i class="fa-solid fa-location-dot"></i>
-    <span>123 Perundurai Road, Erode, Tamil Nadu 638001</span>
-  </div>
+  <!-- Header -->
+  <header>
+    <h1>CCTV Zoom In Zone</h1>
+    <nav>
+      <ul>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Hero -->
+  <section class="hero">
+    <div class="hero-content">
+      <h2>Secure Your World with CCTV Zoom In Zone</h2>
+      <p>Erode's trusted partner for CCTV, biometric, GPS tracking & more.</p>
+      <a href="#contact" class="btn">Get a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="section">
+    <h3 class="section-title">Our Core Services</h3>
+    <div class="services">
+      <div class="service-card">
+        <i class="fa-solid fa-video"></i>
+        <h4>CCTV Camera Installation</h4>
+        <p>High-definition surveillance with remote monitoring.</p>
+      </div>
+      <div class="service-card">
+        <i class="fa-solid fa-fingerprint"></i>
+        <h4>Biometric Attendance Systems</h4>
+        <p>Accurate time & attendance management for your workforce.</p>
+      </div>
+      <div class="service-card">
+        <i class="fa-solid fa-location-dot"></i>
+        <h4>GPS Vehicle Tracking</h4>
+        <p>Real-time tracking solutions for fleets and personal vehicles.</p>
+      </div>
+      <div class="service-card">
+        <i class="fa-solid fa-laptop"></i>
+        <h4>Laptop & System Services</h4>
+        <p>Sales, repair and maintenance for laptops & desktops.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="section">
+    <h3 class="section-title">Get in Touch</h3>
+    <div class="contact">
+      <div class="contact-item">
+        <i class="fa-solid fa-phone"></i>
+        <span>+91 98765 43210</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-envelope"></i>
+        <span>info@cctvzoominzone.com</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-location-dot"></i>
+        <span>123 Perundurai Road, Erode, Tamil Nadu 638001</span>
+      </div>
+      <div class="contact-item">
+        <i class="fa-solid fa-globe"></i>
+        <a href="https://www.cctvzoominzone.com" target="_blank">www.cctvzoominzone.com</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer>
+    &copy; 2025 CCTV Zoom In Zone. All rights reserved.
+  </footer>
 </body>
 </html>
+
 
